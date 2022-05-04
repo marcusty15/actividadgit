@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS BOOTSTRAP -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <title>Document</title>
+</head>
+<body>
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <img src="./img/header-simpsons.gif" alt="">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="./index.html">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Blog</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contacto</a>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-danger" type="submit">Busqueda</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+
+      <!-- CARROUSEL -->
+      <div class="jumbotron">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./img/carrousel-3.jpg" class="d-block w-100 img-fluid" alt="...">
+          </div>
+      </div>
+
+      <!-- CARDS -->
+      <div class="container-fluid" style="background-color: rgb(206, 203, 49);">
+        <div class="row pt-5 py-5">
+          <div class="col-lg-4 col-sm-12 d-flex justify-content-center">
+            <div class="card" style="width: 18rem;">
+                <img src="./img/maggie.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Maggie</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="./personajes/maggie.html" class="btn btn-danger">Leer más...</a>
+                </div>
+              </div>
+          </div>
+          <div class="col-lg-4 col-sm-12 d-flex justify-content-center">
+            <div class="card" style="width: 18rem;">
+                <img src="./img/homer.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Homero</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="./personajes/homero.html" class="btn btn-danger">Leer más...</a>
+                </div>
+              </div>
+          </div>
+          <div class="col-lg-4 col-sm-12 d-flex justify-content-center">
+            <div class="card" style="width: 18rem;">
+                <img src="./img/bart.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Bart</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="./personajes/bart.html" class="btn btn-danger">Leer más...</a>
+                </div>
+              </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- FOOTER -->
+      <footer class="py-5">
+          <p class="text-center">@Hecho por programa desde tu casa</p>
+      </footer>
+
+    <!-- JS BOOTSTRAP -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+</body>
+</html>
